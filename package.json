@@ -1,6 +1,6 @@
 {
   "name": "ludwig-module",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "'Test module'",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "prepublish": "npm test"
   },
   "bin": {
-    "greeter": "greeter.js"
+    "greeter": "bin/greeter.js"
   },
   "keywords": [
     "ludwig",

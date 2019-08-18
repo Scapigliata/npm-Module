@@ -4,7 +4,7 @@ console.log('Starting tests');
 
 const resOne = greeter();
 if (resOne !== 'Hello User!!!') {
-  throw new Error('greet not working with default argument')
+  throw new Error('Greeter not working with default argument')
 }
 
 const resTwo = greeter('Paulina');
